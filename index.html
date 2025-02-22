@@ -2,38 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="The homepage of Rohan Alexander.">
     <title>Rohan Alexander</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
     <style>
-      /* Imports local TX-02 font */
-      @font-face {
-        font-family: "TX-02";
-        src: url("TX-02-Regular.otf") format("truetype");
+      *, *::before, *::after {
+        box-sizing: border-box;
       }
       body {
-        font-family: "TX-02", sans-serif;
+        font-family: "EB Garamond", serif;
         margin: 0;
         padding: 20px;
         background: #fff;
         color: #000;
+        line-height: 1.3;
       }
-      /* Container for content with a max width of 210mm */
       .container {
-        max-width: 210mm;
+        max-width: 210mm; /* A4 width */
         margin: 0 auto;
+        padding: 0 10px; 
       }
       header,
       nav,
       section {
         margin-bottom: 20px;
       }
+      a {
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+      }
+      a:hover {
+        color: #555;
+        text-decoration: underline;
+      }
       nav a {
         margin-right: 15px;
-        color: #000;
+        text-decoration: underline;
       }
       img {
-        float: left;
-        margin-right: 15px;
+        float: right;
+        margin-left: 15px;
         border-radius: 50%;
+        max-width: 100%;
+        height: auto;
       }
     </style>
   </head>
@@ -57,11 +72,11 @@
         </p>
 
         <p>
-          I co-founded <a href="https://rohanalexander.com/events-tdw.html">The Data Workshop</a>, a weekly, free, online, seminar series that brings together academia and industry to share data science and AI best practice. You can sign up <a href="https://rohanalexander.substack.com">here</a>.
+          I co-founded <a href="https://rohanalexander.com/events-tdw.html">The Data Workshop</a>, a weekly, free, online, seminar series that brings together academia and industry to share data science and AI best practice. You can <a href="https://rohanalexander.substack.com">sign up</a> to receive email invitations.
         </p>
 
         <p>
-          My book, <a href="https://www.tellingstorieswithdata.com/"><i>Telling Stories With Data</i></a>, argues that a trustworthiness revolution is needed in data science, and proposes a view of what it could look like. It has been strongly endorsed, including: Andrew Gelman <i>"I absolutely love this book"</i>, Kosuke Imai <i>"I highly recommend this unique book!"</i>, Sir David Spiegelhalter <i>"[A]n extraordinary, wonderful, book..."</i>, Daniela Witten <i>"An excellent book"</i>, and Richard McElreath <i>"This is not another statistics book. It is much better than that."</i> You can buy a print copy <a href="https://www.routledge.com/Telling-Stories-with-Data-With-Applications-in-R/Alexander/p/book/9781032134772">here</a> and you can access the free online version <a href="https://www.tellingstorieswithdata.com/">here</a>.
+          My book, <a href="https://www.tellingstorieswithdata.com/"><i>Telling Stories With Data</i></a>, argues that a trustworthiness revolution is needed in data science, and proposes a view of what it could look like. It has been strongly endorsed, including: Andrew Gelman <i>"I absolutely love this book"</i>, Kosuke Imai <i>"I highly recommend this unique book!"</i>, Sir David Spiegelhalter <i>"[A]n extraordinary, wonderful, book..."</i>, Daniela Witten <i>"An excellent book"</i>, and Richard McElreath <i>"This is not another statistics book. It is much better than that."</i> You can <a href="https://www.routledge.com/Telling-Stories-with-Data-With-Applications-in-R/Alexander/p/book/9781032134772">buy a print copy</a> or <a href="https://www.tellingstorieswithdata.com/">access the free online version</a>.
         </p>
 
         <p>

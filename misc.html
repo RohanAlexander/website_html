@@ -2,33 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Miscellaneous lists of things including things to do, books and articles to read.">
     <title>Rohan Alexander</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
     <style>
-      /* Imports local TX-02 font */
-      @font-face {
-        font-family: "TX-02";
-        src: url("TX-02-Regular.otf") format("truetype");
+      *, *::before, *::after {
+        box-sizing: border-box;
       }
       body {
-        font-family: "TX-02", sans-serif;
+        font-family: "EB Garamond", serif;
         margin: 0;
         padding: 20px;
         background: #fff;
         color: #000;
+        line-height: 1.3;
       }
-      /* Container for content with a max width of 210mm */
       .container {
-        max-width: 210mm;
+        max-width: 210mm; /* A4 width */
         margin: 0 auto;
+        padding: 0 10px; 
       }
       header,
       nav,
       section {
         margin-bottom: 20px;
       }
+      a {
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+      }
+      a:hover {
+        color: #555;
+        text-decoration: underline;
+      }
       nav a {
         margin-right: 15px;
-        color: #000;
+        text-decoration: underline;
+      }
+      img {
+        float: right;
+        margin-left: 15px;
+        border-radius: 50%;
+        max-width: 100%;
+        height: auto;
       }
     </style>
   </head>
@@ -46,23 +66,25 @@
         </nav>
       </header>
       <section>
-        <h2>Various things to do</h2>
-        Some recommendations for things to do and places to eat in cities that I've lived in:
+        <h2>Various things to do in:</h2>
+
         <ul>
           <li>Brisbane, Australia
             <ul>
-              <li>There are free BBQs available on Kangaroo Point cliffs---have an early dinner and watch the night close in.</li>
-              <li>The Barra Boys.</li>
-              <li>Pizza Caffe at the University of Queensland.</li>
+              <li>Free BBQs on Kangaroo Point cliffs. Buy things to cook for an early dinner and watch the night close in.</li>
+              <li>The Barra Boys, 1007 Stanley St. Great fish and chips.</li>
+              <li>Pizza Caffe at the University of Queensland. Great pizza and you can walk around the uni - don't miss the Ig Nobel winning <a href="https://en.wikipedia.org/wiki/Pitch_drop_experiment">pitch experiment</a>.</li>
               <li>Go for a run, starting at about the Southbank Ferry Terminal, then cross the Goodwill Bridge, then either left for a shorter run (cross back on Kurilpa Bridge) or right and stick along the river and keep going until you get too tired---making it to Sydney Street Ferry Terminal is great, but even better to try to get to New Farm Park Ferry Terminal---then get a City Cat back to Southbank. That will end up about 10-12km depending on specifics.</li>
-              <li>Hire a car and drive an hour north to Moffat Beach (not patrolled) or Dicky Beach (patrolled). (Train + bus works also.)</li>
+              <li>Hire a car and drive an hour north to Moffat Beach (not patrolled) then Dicky Beach (patrolled), and finally Kings Beach (patrolled). (Train + bus works also.)</li>
             </ul>
           </li>
           <li>Canberra, Australia
             <ul>
-              <li>The Cupping Room</li>
-              <li>Rizla</li>
-              <li>Volstead Repeal</li>
+              <li>The Cupping Room, 1 University Ave. Great coffee</li>
+              <li>Rizla, 24 Lonsdale St. Great food and riesling.</li>
+              <li>Volstead Repeal, 32 Mort St.Great drinks.</li>
+              <li>ONA Coffee House, 68 Wollongong St. This is in Fyshwick, but it's worth the trip. There are second hand book shops across the road that worth going to all.</li>
+              <li>Cosmorex, 47 Kembla St, Fyshwick. Again, in Fyshwick, but worth the trip.</li>
               <li>A run from Civic down to the lake, and ideally making it across both bridges is pretty great. Will end up at about 8-10km depending on where you're leaving from in Civic.</li>
             </ul>
           </li>
@@ -81,12 +103,32 @@
               <li>"Central" station isn't actually that central---you'll likely want Wynyard.</li>
             </ul>
           </li>
+          <li>San Francisco, California
+            <ul>
+              <li>Twin Peaks. Brilliant views of the city. Pick a clear time of day (early afternoon is safest if you're not flexible). You could walk up, but it's a bit of effort.</li>
+              <li>Baker Beach. Great beach for views of the Golden Gate Bridge. Can be a bit breezy.</li>
+              <li>Ike's Place, 3489 16th St. Brilliant sandwiches. Go early or late or call to avoid large lines. Get the Dutch Crunch bread. Cost: c.$10 for a sandwich.</li>
+              <li>Bi-Rite Creamery, 3692 18th Street. Nice ice cream. Don't miss the lavender one.</li>
+              <li>Tartine Bakery, 600 Guerrero Street. Very nice cakes. Avoid peak times otherwise there's big lines and it's hard to get a table. Cost: c.$7 for a slice of cake.</li>
+              <li>Sightglass, 270 7th Street. Nice coffee. Nice place to sit down and see the SF people. No wifi.</li>
+              <li>La Taqueria, 2889 Mission Street. Carnitas burrito is better than beef burrito. Get sour cream but not super. Carnitas taco is better than chicken taco but both are great.</li>
+              <li>Taquerias El Farolito, 2779 Mission Street. Great mexican. Enormous burritos and delicious tacos. Everything is great.</li>
+            </ul>
+          </li>
+          <li>Berkeley, California
+            <ul>
+              <li>Bobby G's Pizzeria, 2072 University Ave. Great pizza. Sometimes has Pliny on tap!</li>
+              <li>Cheese Board Collective Pizzeria, 1512 Shattuck Ave. One type of pizza each day. Always vegetarian. Always great./li>
+              <li>Hotsy Totsy, 601 San Pablo Ave. Great dive bar.</li>
+              <li>Tacos El Autlense, taco truck that parks in the Hotsy Totsy car park. Great food that you can take the food into the bar.</li>
+            </ul>
+          </li>
           <li>Toronto, Canada
             <ul>
               <li>California Sandwiches, 244 Claremont St. Great but cheap sandwiches.</li>
-              <li>Good Egg, 156 Augusta Ave. A book shop in Kensington Market that is focused on kitchen books. It sounds niche, and it is, but it's also great. (HT: Ryan Briggs)</li>
+              <li>Good Egg, 156 Augusta Ave. A book shop in Kensington Market that is focused on kitchen books. It sounds niche, and it is, but it's also great. [HT: Ryan Briggs]</li>
               <li>Vietnam Lovely Noodle, 378 Bloor St W. Great but cheap noodles.</li>
-              <li>Evangeline Toronto, 51 Camden St. <i>This is a bar on Level 14 of the Ace Hotel. Go early on a nice evening and try for the outside table around the corner for a great view.</i></li>
+              <li>Evangeline Toronto, 51 Camden St. This is a bar on Level 14 of the Ace Hotel. Go early on a nice evening and try for the outside table around the corner for a great view.</li>
               <li>Tap Phong, 360 Spadina Ave. This shop in Chinatown provides an incredible selection of kitchen supplies at decent prices. Again, sounds weird, but it's a Toronto institution.</li>
               </ul>
           </li>
@@ -97,20 +139,22 @@
           </li>
         </ul>
 
-        <h2>Books</h2>
-        The best books that I read in:
+        <h2>The best books that I read in:</h2>
+        
         <ul>
           <li>2024
             <ul>
               <li>Alammar, Jay, and Maarten Grootendorst, "Hands-On Language Models"</li>
               <li>Huyen, Chip, "Designing Machine Learning Systems"</li>
+              <li>Macdonald, Helen, "H is for Hawk"</li>
+              <li>Rebanks, James, "The Shepherd's Life"</li>
               <li>Seth, Vickram, "A Suitable Boys"</li>
-              <li>Zuckerman, Gregory, "The Man Who Solved the Market" (HT: Michaela)</li>
+              <li>Zuckerman, Gregory, "The Man Who Solved the Market" [HT: Michaela]</li>
             </ul>
           </li>
           <li>2023
             <ul>
-              <li>Bouk, Dan, "Democracy's Data" (HT: Emily)</li>
+              <li>Bouk, Dan, "Democracy's Data" [HT: Emily]</li>
               <li>DeWitt, Helen, "The English Understand Wool"</li>
               <li>Kellaway, Lucy, "Re-educated"</li>
               <li>Loftus, Peter, "The Messenger"</li>
@@ -121,10 +165,10 @@
           </li>
           <li>2022
             <ul>
-              <li>Efron & Hastie, "Computer Age Statistical Inference" (HT: Monica)</li>
+              <li>Efron & Hastie, "Computer Age Statistical Inference" [HT: Monica]</li>
               <li>Kuang, R. F., "Babel, or the Necessity of Violence"</li>
               <li>Light, Singer & Willett, "By Design"</li>
-              <li>Mindell, David, "Digital Apollo" (HT: Dan)</li>
+              <li>Mindell, David, "Digital Apollo" [HT: Dan]</li>
               <li>Morange, Michel "A History of Biology"</li>
             </ul>
           </li>
@@ -157,32 +201,36 @@
           </li>
         </ul>
 
-        <h2>Something to read</h2>
-
-        Some think there is no place for essays in today's world of 140 characters, and sound bites. But a well-written essay remains valuable---it has the opportunity to develop an argument, so it is capable of changing your mind. I hope you enjoy reading these essays as much as I have enjoyed putting them together.
+        <h2>Something to read:</h2>
         
         <ul>
           <li>Boyd, Flinder, 2013, "<a href="https://www.sbnation.com/longform/2013/4/11/4174374/chris-copeland-new-york-knicks-profile">The Re-Education of Chris Copeland</a>", <i>SB Nation</i>, 11 April.</li>
           <li>Brooks, David, 2011, "<a href="https://www.newyorker.com/magazine/2011/01/17/social-animal">Social Animal</a>", <i>The New Yorker</i>, 17 January.</li>
           <li>Deresiewicz, William, 2010, "<a href="https://theamericanscholar.org/solitude-and-leadership/">Solitude and Leadership</a>", <i>The American Scholar</i>, Spring.</li>
           <li>Dickman, Kyle, 2018, "<a href="https://www.outsideonline.com/2315436/surviving-rattlesnake-bite">A Rattle with Death in Yosemite</a>", <i>Outside</i>, 20 June.</li>
+          <li>Fagone, Jason, 2014, "<a href="https://grantland.com/features/anthony-gatto-juggling-cirque-du-soleil-jason-fagone/">Dropped</a>", <i>Grantland</i>, 18 March.</li>
           <li>Foster Wallace, David, 2006, "<a href="https://www.nytimes.com/2006/08/20/sports/playmagazine/20federer.html?unlocked_article_code=1.xE4.Qhlz.nquK6mk5xujJ&smid=url-share">Federer as Religious Experience</a>", <i>The New York Times</i>, 20 August.</li>
           <li>Gawande, Atul, 2011, "<a href="https://www.newyorker.com/magazine/2011/10/03/personal-best">Personal Best</a>", <i>The New Yorker</i>, 3 October.</li>
           <li>Graham, Paul, 2005, "<a href="https://paulgraham.com/hs.html">What You'll Wish You'd Known</a>", January.</li>
           <li>Harrington, Walt, 1986, "<a href="http://www.washingtonpost.com/wp-dyn/content/article/2006/11/27/AR2006112700852_pf.html">Born to Run</a>", <i>Washington Post</i>, 28 September.</li>
           <li>Harrington, Walt, 2011, "<a href="https://theamericanscholar.org/dubya-and-me/">Dubya and Me</a>", <i>The American Scholar</i>, Autumn.</li>
           <li>Henderson, Bob, 2016, "<a href="https://nautil.us/what-does-any-of-this-have-to-do-with-physics-236309/">What Does Any of This Have To Do with Physics?</a>", <i>Nautilus</i>, 19 December.</li>
+          <li>Hill, David, 2014, "<a href="https://grantland.com/features/diplomacy-the-board-game-of-the-alpha-nerds/">The Board Game of the Alpha Nerds</a>", <i>Grantland</i>, 18 June.</li>
           <li>Lehrer, Jonah, 2009, "<a href="https://www.newyorker.com/magazine/2009/05/18/dont-2">The Secret of Self-Control</a>", <i>The New Yorker</i>, 18 May.</li>
           <li>Lewis, Michael, 2012, "<a href="https://www.vanityfair.com/news/2012/10/michael-lewis-profile-barack-obama">Obama's Way</a>", <i>Vanity Fair</i>, 11 September.</li>
           <li>Mahler, Jonathan and Jim Rutenberg, 2019, "<a href="https://www.nytimes.com/interactive/2019/04/03/magazine/rupert-murdoch-fox-news-trump.html">How Rupert Murdoch's Empire Of Influence Remade The World</a>", <i>The New York Times</i>, 2 April.</li>
+          <li>Mahler, Jonathan and Jim Rutenberg, 2025, "<a href="https://www.nytimes.com/2025/02/13/magazine/rupert-murdoch-succession-family-trust-fight.html?unlocked_article_code=1.w04.-A6E.OECl4BsOUFYi&smid=url-share">'You've Blown a Hole in the Family': Inside the Murdochs' Succession Drama</a>", <i>The New York Times</i>, 13 February.</li>
           <li>Parker, Ashley, 2010, "<a href="https://www.nytimes.com/2010/05/02/magazine/02obamastaff-t.html">All the Obama 20-Somethings</a>", <i>The New York Times</i>, 29 April.</li>
           <li>Paumgarten, Nick, 2019, "<a href="https://www.newyorker.com/magazine/2019/06/24/inside-the-cultish-dreamworld-of-augusta-national">Inside the Cultish Dreamworld of Augusta National"</a>, <i>The New Yorker</i>, 14 June.</li>
+          <li>Salvatier, John, 2017, "<a href="http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail">Reality has a surprising amount of detail</a>", 13 May.</li>
           <li>Schulman, Michael, 2018, "<a href="https://www.newyorker.com/magazine/2018/10/15/daniel-radcliffe-and-the-art-of-the-fact-check">Daniel Radcliffe and the Art of the Fact-Check</a>", <i>The New Yorker</i>, 8 October.</li>
           <li>Smith, Zadie, 2010, "<a href="https://www.nybooks.com/articles/2010/11/25/generation-why/">Generation Why?</a>", <i>New York Review of Books</i>, 25 November.</li>
           <li>Smith, Zadie, 2012, "<a href="https://www.nytimes.com/2012/09/09/t-magazine/the-house-that-hova-built.html">The House that Hova Built</a>", <i>The New York Times Style Magazine</i>, 6 September.</li>
           <li>Somers, James, 2017, "<a href="https://www.theatlantic.com/technology/archive/2017/04/the-tragedy-of-google-books/523320/">Torching The Modern-Day Library Of Alexandria</a>", <i>The Atlantic</i>, 20 April.</li>
           <li>Thompson, Wright, 2013, "<a href="https://www.espn.co.uk/nba/story/_/id/29117745/michael-jordan-not-left-building">Jordan Has Not Left the Building</a>", <i>ESPN</i>, February.</li>
           <li>Weingarten, Gene, 2007, "<a href="https://www.washingtonpost.com/lifestyle/magazine/pearls-before-breakfast-can-one-of-the-nations-great-musicians-cut-through-the-fog-of-a-dc-rush-hour-lets-find-out/2014/09/23/8a6d46da-4331-11e4-b47c-f5889e061e5f_story.html">Pearls Before Breakfast</a>", <i>The Washington Post</i>, 8 April.</li>
+          <li>Witteman, Holly, 2009, "<a href="https://holly.witteman.ca/the-b-lane-swimmer/">The B Lane Swimmer</a>", 29 April. [HT: Vicky Boykis].</li>
+          <li>Wolchover, Natalie, 2021, "<a href="https://www.quantamagazine.org/why-nasas-james-webb-space-telescope-matters-so-much-20211203/">The Webb Space Telescope Will Rewrite Cosmic History. If It Works.</a>", <i>Quanta</i>, 3 December.</li>
         </ul>
 
       </section>
