@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Course that introduces modeling concepts.">
+    <title>Courses: Introduction to Modeling</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after { box-sizing: border-box; }
+      body {
+        font-family: "EB Garamond", serif;
+        margin: 0;
+        padding: 20px;
+        background: #fff;
+        color: #000;
+        line-height: 1.3;
+      }
+      .container {
+        max-width: 210mm;
+        margin: 0 auto;
+        padding: 0 10px;
+      }
+      header, nav, section { margin-bottom: 20px; }
+      a {
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+      }
+      a:hover {
+        color: #555;
+        text-decoration: underline;
+      }
+      nav a {
+        margin-right: 15px;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Courses</h1>
+          <nav>
+            <a href="../index.html">Home</a>
+            <a href="../pdfs/cv-academic-Rohan_Alexander.pdf" target="_blank" rel="noopener">CV</a>
+            <a href="../bookshelf.html">Bookshelf</a>
+            <a href="../tdw.html">Workshop</a>
+            <a href="../misc.html">Misc</a>
+            <a href="../blog.html">Blog</a>
+          </nav>
+      </header>
+
+      <section>
+        <h2>Introduction to Modeling</h2>
+
+        <h3>Overview</h3>
+
+          <p>After developing comfort with the idea of how our world becomes data and everything that goes into creating a nice, tidy, analysis dataset, we may be interested to model it. This course builds on "Data science foundations" by developing the modeling side of things. Many of the results that we will obtain from our models are determined well before we ever contemplate regression, and the credibility of any conclusions relies on a robust workflow.</p>
+
+          <p>This course takes those skills as given, and focuses on doing a good job of the modeling. The typical person completing this course is a PhD student who is looking to apply statistics to some other discipline.</p>
+
+        <h3>Learning objectives</h3>
+
+          <p>By the end of the course you should have three quantitative papers that can be submitted to a journal/conference. More generally you should be able to:</p>
+
+          <ol>
+            <li>Engage critically with ideas and readings related to statistical modeling (demonstrated in all papers and the notebook).</li>
+            <li>Conduct quantitative research in a high-quality, reproducible and ethical way (demonstrated in all papers).</li>
+            <li>Clearly communicate what was done, what was found, and why in writing (demonstrated in all papers).</li>
+            <li>Respectfully identify strengths and weaknesses in the data science research conducted by others (demonstrated in quizzes, and the peer review).</li>
+            <li>Develop the ability to appropriately choose and apply statistical models to real-world situations (demonstrated in the final paper)</li>
+            <li>Conduct all aspects of the typical data science workflow (demonstrated in all papers).</li>
+          </ol>
+
+        <h3>Pre-requisites</h3>
+
+          <ul>
+            <li>"Data science foundations", or equivalent coverage of Chapters 1-13 of <a href="https://www.tellingstorieswithdata.com" target="_blank" rel="noopener">Telling Stories with Data</a>.</li>
+          </ul>
+
+        <h3>Textbooks</h3>
+
+          <ul>
+            <li>McElreath, 2020, <i>Statistical Rethinking</i>, 2nd edition, Chapman & Hall/CRC. Please purchase a print copy, which will be about about $70. The author provides a free set of lectures that we will go through, which make purchasing the book not unreasonable.</li>
+            <li>Johnson, Ott, and Dogucu, 2021, <i>Bayes Rules!</i>, Chapman & Hall/CRC. You are welcome to purchase a print copy, but there is also a free version online.</li>
+          </ul>
+
+        <h3>Content</h3>
+
+          <p>Each week you should read the chapters, watch the relevant lecture, and attempt the exercises.</p>
+
+          <h4>Week 1</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 1, "The Golem of Prague"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 1, "The Golem of Prague"</li>
+            <li>Read <i>Statistical Rethinking</i> Chapter 2, "Small Worlds and Large Worlds"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 1, "The (Big) Bayesian Picture"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 2, "Bayes' Rule"</li>
+            <li>Read Freedman, David, 1991, "Statistical Models and Shoe Leather" <i>Sociological Methodology</i>, Vol. 21, pp. 291-313.</li>
+          </ul>
+
+          <h4>Week 2</h4>
+
+          <ul>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 2, "The Garden of Forking Data"</li>
+            <li>Read <i>Statistical Rethinking</i> Chapter 3, "Sampling the Imaginary"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 3, "The Beta-Binomial Bayesian Model"</li>
+          </ul>
+
+          <h4>Week 3</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 4, "Geocentric Models"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 3, "Geocentric Models"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 4, "Categories & Curves"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 4, "Balance and Sequentiality in Bayesian Analyses"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 5, "Conjugate Families"</li>
+          </ul>
+
+          <h4>Week 4</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 5, "The Many Variables & The Spurious Waffles"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 5, "Elemental Confounds"</li>
+            <li>Read <i>Statistical Rethinking</i> Chapter 6, "The Haunted DAG & The Causal Terror"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 6, "Good and Bad Controls"</li>
+          </ul>
+
+          <h4>Week 5</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 7, "Ulysses' Compass"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 7, "Fitting over and under"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 9, "Simple Normal Regression"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 10, "Evaluating Regression Models"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 11, "Extending the Normal Regression Model"</li>
+          </ul>
+
+          <h4>Week 6</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 9, "Markov Chain Monte Carlo"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 8, "Markov Chain Monte Carlo"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 6, "Approximating the Posterior"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 7, "MCMC under the Hood"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 8, "Posterior Inference & Prediction"</li>
+          </ul>
+
+          <h4>Week 7</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 10, "Big Entropy and the Generalized Linear Model"</li>
+            <li>Read <i>Statistical Rethinking</i> Chapter 11, "God Spiked the Integers"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 9, "Modeling events"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 10, "Counts and Hudden Confounds"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 12, "Poisson & Negative Binomial Regression"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 13, "Logistic Regression"</li>
+            <li>Read Burch, Tyler James, 2023, "<a href="https://tylerjamesburch.com/blog/misc/nhl-predictions" target="_blank" rel="noopener">2023 NHL Playoff Predictions</a>", April.</li>
+          </ul>
+
+          <h4>Week 8</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 12, "Monsters and Mixtures"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 11, "Ordered Categories"</li>
+          </ul>
+
+          <h4>Week 9</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 13, "Models with Memory"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 12, "Multilevel Models"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 15, "Hierarchical Models are Exciting"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 16, "(Normal) Hierarchical Models without Predictors"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 17, "(Normal) Hierarchical Models with Predictors"</li>
+          </ul>
+
+          <h4>Week 10</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 14, "Adventures in Covariance"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 13, "Multilevel adventures"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 14, "Correlated features"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 18, "Non-Normal Hierarchical Regression & Classification"</li>
+            <li>Read <i>Bayes Rules!</i> Chapter 19, "Adding More Layers"</li>
+          </ul>
+
+          <h4>Week 11</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 15, "Missing Data and Other Opportunities"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 17, "Measurement and misclassification"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 18, "Missing Data"</li>
+            <li>Read Rubin, D, 1976, "Inference and missing data", <i>Biometrika</i>.</li>
+          </ul>
+
+          <h4>Week 12</h4>
+
+          <ul>
+            <li>Read <i>Statistical Rethinking</i> Chapter 16, "Generalized Linear Madness"</li>
+            <li>Read <i>Statistical Rethinking</i> Chapter 17, "Horoscopes"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 19, "Generalized Linear Madness"</li>
+            <li>Watch <i>Statistical Rethinking</i> 2023 videos, Lecture 20, "Horoscopes"</li>
+          </ul>
+
+        <h3>Assessment</h3>
+
+          <h4>Paper I</h4>
+
+          <ul>
+            <li>Due date: Thursday, noon, Week 1.
+              <ul>
+                <li>Marking starts, noon, on the following Monday, and you can update until then to incorporate peer review comments. Please do not make any changes after marking starts.</li>
+              </ul>
+            </li>
+            <li>Task: <a href="https://tellingstorieswithdata.com/23-assessment.html#sec-paper-one" target="_blank" rel="noopener">Donaldson Paper</a></li>
+            <li>Weight: 10 per cent.</li>
+            <li>You must do this individually.</li>
+            <li>You do not need to do this again if you already did it as part of "Data science foundations". In that case, the weight will be redistributed to Papers II and III.</li>
+          </ul>
+
+          <h4>Paper II</h4>
+
+          <ul>
+            <li>Due date: Thursday, noon, Week 4.
+              <ul>
+                <li>Marking starts, noon, on the following Monday, and you can update until then to incorporate peer review comments. Please do not make any changes after marking starts.</li>
+              </ul>
+            </li>
+            <li>Task: <a href="https://tellingstorieswithdata.com/23-assessment.html#sec-murrumbidgee" target="_blank" rel="noopener">Murrumbidgee Paper</a></li>
+            <li>You are welcome to work in teams up to size three.</li>
+            <li>Weight: 20 per cent.</li>
+            <li>The mark is conditional on the paper being submitted to a journal/conference within two weeks of marking (being rejected is fine---it just has to have been submitted).</li>
+          </ul>
+
+          <h4>Paper III</h4>
+
+          <ul>
+            <li>Due date: Thursday, noon, Week 8.
+              <ul>
+                <li>Marking starts, noon, on the following Monday, and you can update until then to incorporate peer review comments. Please do not make any changes after marking starts.</li>
+              </ul>
+            </li>
+            <li>Task: <a href="https://tellingstorieswithdata.com/23-assessment.html#sec-spadina" target="_blank" rel="noopener">Spadina Paper</a> or <a href="https://tellingstorieswithdata.com/23-assessment.html#sec-paper-five" target="_blank" rel="noopener">Spofforth Paper</a></li>
+            <li>You are welcome to work in teams up to size three.</li>
+            <li>Weight: 20 per cent.</li>
+            <li>The mark is conditional on the paper being submitted to a journal/conference within two weeks of marking (being rejected is fine---it just has to have been submitted).</li>
+          </ul>
+
+          <h4>Final Paper</h4>
+
+          <ul>
+            <li>Due date: Thursday, noon, Week 12.
+              <ul>
+                <li>Marking starts, noon, two weeks after this date, and you can update update until then to allow you to incorporate peer review comments. Please do not make any changes after marking starts.</li>
+              </ul>
+            </li>
+            <li>Task: <a href="https://tellingstorieswithdata.com/23-assessment.html#sec-final-paper" target="_blank" rel="noopener">Final Paper</a></li>
+            <li>You must do this individually.</li>
+            <li>Weight: 30 per cent.</li>
+            <li>The mark is conditional on the paper being submitted to a journal/conference within two weeks of marking (being rejected is fine---it just has to have been submitted).</li>
+          </ul>
+
+      </section>
+    </div>
+  </body>
+</html>

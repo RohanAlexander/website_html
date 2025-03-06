@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Course that focuses on surveys, sampling, and observational data.">
+    <title>Courses: Surveys, sampling, and observational data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "EB Garamond", serif;
+        margin: 0;
+        padding: 20px;
+        background: #fff;
+        color: #000;
+        line-height: 1.3;
+      }
+      .container {
+        max-width: 210mm; /* A4 width */
+        margin: 0 auto;
+        padding: 0 10px; 
+      }
+      header,
+      nav,
+      section {
+        margin-bottom: 20px;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+      }
+      a:hover {
+        color: #555;
+        text-decoration: underline;
+      }
+      nav a {
+        margin-right: 15px;
+        text-decoration: underline;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      }
+    </style>
+  </head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Courses</h1>
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="../pdfs/cv-academic-Rohan_Alexander.pdf" target="_blank">CV</a>
+          <a href="../bookshelf.html">Bookshelf</a>
+          <a href="../tdw.html">Workshop</a>
+          <a href="../misc.html">Misc</a>
+          <a href="../blog.html">Blog</a>
+        </nav>
+    </header>
+    <section>
+
+      <h2>Surveys, sampling, and observational data</h2>
+      
+      <p>Last updated: 2024-12-01</p>
+
+      <h3>Preamble</h3>
+
+      <h4>Overview</h4>
+        <blockquote>
+          <p>The best thing about being a statistician, is that you get to play in everyone's backyard.</p>
+          <p>John Tukey</p>
+        </blockquote>
+
+        <p>STA304 is an upper-level undergraduate course at the University of Toronto's Department of Statistical Sciences.</p>
+
+        <p>The work of applied statisticians, regardless of their specific job title and area of application, is the most important and exciting work in the world right now. The ability to gather data, analyse it, and communicate your understanding of the underlying process is incredibly valuable. In this course you will learn and apply the essentials of this.</p>
+
+        <p>We focus on surveys, sampling and observational data. The very stuff of statistical science! We will approach these topics from a practical perspective. You will actually run surveys and learn how messy it is to put one together. You will learn how to think about sampling, how to implement it, and why the details matter. You will forecast an election. And you will conduct original research. More generally, you will learn how to obtain and analyse data and use it to make sensible claims about the world.</p>
+
+        <p>To work as an applied statistician requires you to be able to, as part of a small team:</p>
+        <ul>
+          <li>Gather data in less-than-perfect settings.</li>
+          <li>Efficiently prepare and clean data toward some purpose.</li>
+          <li>Analyse it in a reproducible, thorough, modern, and statistically-mature manner.</li>
+          <li>Communicate your analysis to stakeholders including colleagues and clients with and without formal statistical training.</li>
+        </ul>
+
+        <p>You likely have some of these skills already. This course will further develop them. At the end of the course you will have a portfolio of work focused on surveying, sampling, and observational data, that you could show off to a potential employer.</p>
+
+        <p>Each week you will read relevant papers and books, engage with them through discussion with each other, myself, and the TA. You will bring this all together and show off how much you have learnt through practical, on-going, assessment.</p>
+
+        <p>It is important to recognise that putting together everything that you have learnt to this point in this way will be difficult. It is not possible to cover everything that you will need to know. You should proactively identify and address aspects where you are weak through seeking additional information and resources. This course acts as a guide as to what is important, it does not contain everything that is important.</p>
+
+        <p>This course is different to many other courses at the University of Toronto. At the end of this course, you will have a portfolio of work that you could show off to a potential employer. You will have developed the skills to work successfully as an applied statistician or data scientist. And you will know how to fill gaps in your knowledge yourself. A lot of scholarships and jobs these days ask for GitHub and blog links etc to show off a portfolio of your work. This is the class that gives you a chance to develop these. It's very important to having something to show that needs to go beyond what is done in a normal class.</p>
+
+      <h4>How to succeed</h4>
+        <p>In this course you will work in a self-directed, open-ended manner. Identify relevant areas of interest and then learn the skills that you need to explore those areas.</p>
+
+        <p>To successfully complete this course, you should expect to spend a large portion of your time reading and writing (both code and text). Deeply engage with the materials. Find a small study group and keep each other motivated and focused. At the start of the week, read the course notes, all compulsory materials and some recommended materials based on your interest. After doing that, but before the 'lecture' time you should complete the weekly quiz. During 'lectures' I'll live-code, discuss materials in the course notes, talk about an experiment, and you'll have a chance to discuss the materials with me.</p>
+
+        <p>You need to be more active in your learning in this course than others - read the notes and related materials - and then go out there and teach yourself more and apply it. You will not be spoon-fed in this course. Each week try to write reproducible, understandable, R code surrounded by beautifully crafted text that motivates, backgrounds, explains, discusses, and criticizes. Make steady progress toward the assessment.</p>
+
+        <p>This is not a 'bird course'. Typically, after the term is finished, students say that the course is difficult but rewarding. The TAs and I are always available to answer any questions. Please come to office hours!</p>
+
+      <h4>How we'll work</h4>
+        <p>This webpage will provide almost all the guiding materials that you need and links to the relevant parts of the notes. The course notes are available <a href="https://www.tellingstorieswithdata.com">here</a>. Those contain notes and other material that you could go over. We'll use Quercus really only for assessment submission and grading.</p>
+
+        <p>A rough weekly flow for the course would be something like:</p>
+        <ol>
+          <li>Read the week's course notes.</li>
+          <li>Read/watch/listen to the required materials.</li>
+          <li>Attend the lecture.</li>
+          <li>Attend the lab.</li>
+          <li>Complete the weekly quiz.</li>
+          <li>Make progress on a paper.</li>
+        </ol>
+
+      <h4>Advice from past students</h4>
+        <p>Successful past students have the following advice (completely unedited by me):</p>
+        <ul>
+          <li>"Start reading and writing on a weekly basis, watch some videos on R and RMD but more importantly learn how to use Google."</li>
+          <li>"It is not a wise idea to take this course if you did not take any other STA 300 level course before."</li>
+          <li>"Start early, find a group of people you trust enough to divide the work up fairly. Let people work to their strengths (people who know R should do the modelling, good writers should write most of the reports, etc.)"</li>
+          <li>"Not to worry if you don't do well on the first problem set—the nature of the course is to build up skills overtime, and it's meant to be challenging in the beginning. In the end, it is worth it because you learn very valuable applicable skills on how to write professional reports."</li>
+          <li>"Work on your writing and direction following skills."</li>
+          <li>"Look at the rubric. There were times that I lost marks because I didn't follow the rubric properly. Go to office hours, they are very useful as you can ask your own question and also get answers to questions other people ask and you didn't think of. Also, do the assignments to the best of your ability. You will lose marks if you don't put in effort and the only person you're hurting is yourself."</li>
+          <li>"During lectures, focus more on the why the prof is doing what he's doing. When he runs certain commands in R, figure out why that sequence of code gives what you want, because it'll help adapt his code into your assignment code. just remembering what he's doing in lecture becomes useless really quickly since the thought process matters more. also, start everything early."</li>
+          <li>"Do this course when you really want to learn something and have a lot of time to working on it."</li>
+          <li>"you need to be very skillful in RStudio and latex. Otherwise you would be struggling."</li>
+          <li>"Try to incorporate the feedback given and read a looottttttttt. Also start early on the problem sets because they tend to take a lot of time. Don't give up!"</li>
+          <li>"-Find a good group for problem sets"</li>
+          <li>"If the assignments stay the same, I would tell students to approach this class from the perspective of 'storytelling with statistics' rather than a statistics course. You need to use R, and Markdown, and have a solid understanding of concepts like regression and sampling, but more importantly you need to be able to interpret results and write about them in a way coherent and professional way."</li>
+          <li>"do your readings"</li>
+          <li>"Definitely get ready to write reports"</li>
+          <li>"Do not take sta304 with Prof Rohan, it is pretty tough"</li>
+          <li>"Start your work a bit earlier, make sure to follow the format expected and the rubric exactly."</li>
+          <li>"Read course material. Figure out WHY this paper/video is being shown to you and what you generally learn from it. Surround yourself with people dedicated to putting in the effort to understand material and who are thorough in their work so you can discuss content and/or work together."</li>
+          <li>"1. Be prepared to work extremely hard (8-11 hours a week). 2. Learn RStudio before course begins--STA130 is ideal preparation. 3. Start problem sets as soon as they are released."</li>
+          <li>"learn to code early and extensively use the office hours with the prof."</li>
+          <li>"This course requires lots of time dedicated and is not an "easy bird course" but is an incredibly rewarding course if one wants to learn how statistics is applied in the real world."</li>
+        </ul>
+
+      <h4>Past iterations</h4>
+        <ul>
+          <li>2024
+            <ul>
+              <li><a href="pdfs/sta304-2024-syllabus.pdf">Syllabus</a></li>
+              <li><a href="pdfs/sta304-2024-evals.pdf">Student evals</a></li>
+            </ul>
+          </li>
+          <li>2022
+            <ul>
+              <li><a href="pdfs/sta304-2022-syllabus.pdf">Syllabus</a></li>
+              <li><a href="pdfs/sta304-2022-evals.pdf">Student evals</a></li>
+            </ul>
+          </li>
+          <li>2020
+            <ul>
+              <li><a href="pdfs/sta304-2020-syllabus.pdf">Syllabus</a></li>
+              <li><a href="pdfs/sta304-2020-evals.pdf">Student evals</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      <h3>Content</h3>
+
+        <h4>Week 1</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/01-introduction.html">Introduction</a></li>
+              <li><a href="https://tellingstorieswithdata.com/02-drinking_from_a_fire_hose.html">Several end-to-end worked examples</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Week 2</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/03-r_essentials.html">R essentials</a></li>
+              <li><a href="https://tellingstorieswithdata.com/04-workflow.html">Reproducible workflows</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Week 3</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/05-on_writing.html">Writing</a></li>
+              <li><a href="https://tellingstorieswithdata.com/06-static_communication.html">Static communication</a></li>
+            </ul>
+          </li>
+          <li>(Optional) R bootcamp (please allow six hours)</li>
+        </ul>
+
+        <h4>Week 4</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/07-interactive_communication.html">Interactive communication</a></li>
+            </ul>
+          </li>
+          <li>(Optional) Git and GitHub bootcamp (please allow six hours)</li>
+        </ul>
+
+        <h4>Week 5</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/08-farm.html">Farm data</a></li>
+              <li><a href="https://tellingstorieswithdata.com/09-gather.html">Gather data</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Week 6</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/10-hunt.html">Hunt data</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Week 7</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/11-clean_and_prepare.html">Clean and prepare data</a></li>
+              <li><a href="https://tellingstorieswithdata.com/12-store_and_share.html">Store and share data</a></li>
+            </ul>
+          </li>
+          <li>Guest lecture: Chris Henry, Bank of Canada
+            <ul>
+              <li>Christopher Henry (Chris) is a Senior Economist at the Bank of Canada. He serves as lead economist for the consumer survey research program on the Currency Department's Economic Research and Analysis team. Chris first joined the Bank as a Research Assistant in 2012, and recently rejoined in 2021 after completing his PhD in Economics. In his role, Chris contributes to the design, implementation, and analysis of a range of surveys that measure the use of cash and alternative methods of payment. He holds an PhD in Economics from Université Clermont Auvergne (France), and an MSc in Mathematics from McMaster University.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Week 8</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/13-eda.html">EDA</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Week 9</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/14-ijalm.html">Linear Models</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Week 10</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/15-causality_from_obs.html">Causality</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Week 11</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li><a href="https://tellingstorieswithdata.com/16-mrp.html">MRP</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Week 12</h4>
+        <ul>
+          <li>Content:
+            <ul>
+              <li>TBD based on class progress and interest.</li>
+            </ul>
+          </li>
+        </ul>
+
+      <h3>Assessment</h3>
+
+        <h4>Summary</h4>
+
+        <h4>Quiz</h4>
+          <ul>
+            <li>20</li>
+            <li>Weekly before the lecture</li>
+          </ul>
+
+        <h4>Tutorial</h4>
+          <ul>
+            <li>20</li>
+            <li>Weekly the day before the tutorial</li>
+          </ul>
+
+        <h4>Paper 1</h4>
+          <ul>
+            <li>25</li>
+            <li>End of Week 3</li>
+          </ul>
+
+        <h4>Paper 2</h4>
+          <ul>
+            <li>25</li>
+            <li>End of Week 6</li>
+          </ul>
+
+        <h4>Paper 3</h4>
+          <ul>
+            <li>25</li>
+            <li>End of Week 8</li>
+          </ul>
+
+        <h4>Paper 4</h4>
+          <ul>
+            <li>25</li>
+            <li>End of Week 10</li>
+          </ul>
+
+        <h4>Final Paper (initial submission)</h4>
+          <ul>
+            <li>1</li>
+            <li>Middle of Week 12</li>
+          </ul>
+
+        <h4>Final Paper (peer review)</h4>
+          <ul>
+            <li>4</li>
+            <li>End of Week 12</li>
+          </ul>
+
+        <h4>Final Paper</h4>
+          <ul>
+            <li>25</li>
+            <li>Two weeks after that</li>
+          </ul>
+          
+      </section>
+    </div>
+  </body>
+</html>        
