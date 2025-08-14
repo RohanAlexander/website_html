@@ -81,7 +81,8 @@
 
         <p>Learning outcomes:</p>
         <ol>
-          <li>Know how and why to pull, commit, add, and push using Git and GitHub. Be comfortable making and receiving Pull Requests, and creating and closing Issues using GitHub to work as a team.</li>
+          <li>Know how and why to pull, commit, add, and push using Git and GitHub.</li>
+          <li>Be comfortable making and receiving Pull Requests, and creating and closing Issues using GitHub to work as a team.</li>
           <li>Know how, when, and why to use CSVs and Parquet.</li>
         </ol>
 
@@ -95,12 +96,18 @@
 
         <p>Learning outcomes:</p>
         <ol>
-          <li>Have a good working knowledge of how to use Python to do data science, using VS Code, UV and Ruff.</li>
+          <li>Know how to set-up and use a Python workspace in VS Code using uv.</li>
+          <li>Know how to import CSVs and Parquet files and glance at them.</li>
+          <li>Can use polars for dataset creation and manipulation.</li>
+          <li>Can simulate data with various probability distributions.</li>
+          <li>Knows how to build graphs and tables.</li>
+          <li>Can use scikit-learn to implement statistical approaches including: ridge regression, logistic regression, Poisson regression, the bootstrap, cross-validation, lasso models, and random forests.</li>
+          <li>Can use Quarto to generate cross-referenced papers.</li>
         </ol>
 
         <p>Material:</p>
         <ul>
-          <li>Timbers, Tiffany, Trevor Campbell, Melissa Lee, Joel Ostblom, Lindsey Heagy, <i>Data Science: A First Introduction with Python</i>, <a href="https://python.datasciencebook.ca">https://python.datasciencebook.ca</a> (change pandas to polars and use uv for package management).</li>
+          <li>Efron, Bradley, and Trevor Hastie, 2016, <i>Computer Age Statistical Inference</i>, Cambridge University Press, <a href="https://hastie.su.domains/CASI/index.html"></a>.</li>
           <li>https://github.com/astral-sh/uv and https://github.com/astral-sh/ruff</li>
         </ul>
 
@@ -108,12 +115,20 @@
 
         <p>Learning outcomes:</p>
         <ol>
-          <li></li>
+          <li>Know how to create and use per-project isolated environments.</li>
+          <li>Know why and how to keep big data small.</li>
+          <li>Know how to connect to databases, and manage credentials with environment variables and secrets.</li>
+          <li>Understand how to use REST APIs.</li>
+          <li>Know what observability means in data science and how to add checks for joins, transformations, and model quality.</li>
+          <li>Know about dev, test, and prod.</li>
+          <li>Understand how to use branches and the importance of small, frequent merges.</li>
+          <li>Know how to use GitHub Actions with triggers, runners, build steps, tests, and secret management.</li>
+          <li>Know how and why to use Docker containers.</li>
         </ol>
 
         <p>Material:</p>
         <ul>
-          <li>Gold, Alex, 2024, <i>DevOps for Data Science</i>, <a href="https://do4ds.com">https://do4ds.com</a></li>
+          <li>Gold, Alex, 2024, <i>DevOps for Data Science</i>, Chs 1-6, <a href="https://do4ds.com">https://do4ds.com</a></li>
         </ul>
 
         <h4>Week 4</h4>
@@ -124,36 +139,45 @@
 
         <h4><i>Part 2: Statistical workflow</i></h4>
 
-        <h4>Week 5 "Written and oral communication"</h4>
+        <h4>Week 5 "Workflow; Written and oral communication"</h4>
 
         <p>Learning outcomes:</p>
         <ol>
-          <li></li>
+          <li>Understand why writing is a critical skill—perhaps the most important—of all the skills required to analyze data.</li>
+          <li>Know how to focus on one main message that we want to communicate to the reader</li>
+          <li>Appreciate the value of being able to get to a first draft as quickly as possible.</li>
+          <li>Know how to rewrite</li>
+          <li>Think seriously about workflow.</li>
         </ol>
 
         <p>Material:</p>
         <ul>
-          <li></li>
+          <li>Deffner, Dominik, Natalia Fedorova, Jeffrey Andrews, and Richard McElreath., 2024, "Bridging theory and data: A computational workflow for cultural evolution" <i>PNAS</i>, <a href="https://doi.org/10.1073/pnas.2322887121">10.1073/pnas.2322887121</a>.</li>
+
         </ul>
 
         <h4>Week 6 "Data gathering and validation"</h4>
 
         <p>Learning outcomes:</p>
         <ol>
-          <li></li>
+          <li>Know how to use Python to scrape websites and gather data from APIs</li>
+          <li>Know how to establish tests for data</li>
+          <li>Know some common issues to be aware of</li>
         </ol>
 
         <p>Material:</p>
         <ul>
-          <li>Deffner, Dominik, Natalia Fedorova, Jeffrey Andrews, and Richard McElreath., 2024, "Bridging theory and data: A computational workflow for cultural evolution" <i>PNAS</i>, <a href="https://doi.org/10.1073/pnas.2322887121">10.1073/pnas.2322887121</a>.</li>
+          
+          <li>https://github.com/Quartz/bad-data-guide/blob/master/README.md</li>
           <li>Scraping and APIs and data validation</li>
+          <li>Radcliffe, Nicholas J., 2026, <i>Test-Driven Data Analysis</i>, Chs 1-2. (This book is pre-publication. Extracts will be provided for class purposes.)</li>
         </ul>
 
         <h4>Week 7 "Data management"</h4>
 
         <p>Learning outcomes:</p>
         <ol>
-          <li></li>
+          <li>Know how to rigiously manage data including filenames, variable names, codebooks, folder organization and documentation.</li>
         </ol>
 
         <p>Material:</p>
@@ -165,7 +189,7 @@
 
         <p>Learning outcomes:</p>
         <ol>
-          <li></li>
+          <li>Know how to communicate model estimates for common models including linear, logistic, Poisson.</li>
         </ol>
 
         <p>Material:</p>
@@ -187,13 +211,21 @@
         <h4><i>Part 3: Integrating AI</i></h4>
         <h4>Week 10 "Python with AI"</h4>
 
-        <ul>
-          <li>Claude code</li>
-          <li>Editing </li>
-          <li>SF Compute </li>
-        </ul>
+        <p>Learning outcomes:</p>
+        <ol>
+          <li>Know how to use Claude code</li>
+          <li>Have principles for editing code.</li>
+          <li>Know how to run code on SF Compute.</li>
+        </ol>
 
         <h4>Week 11 "Developing benchmarks"</h4>
+
+        <p>Learning outcomes:</p>
+        <ol>
+          <li>Understand key sampling principles</li>
+          <li>Know what a benchmark is and why it is important.</li>
+          <li>Know how to build a benchmark.</li>
+        </ol>
 
         <ul>
           <li>Reuel, Anka, and Amelia Hardy and Chandler Smith and Max Lamparth and Malcolm Hardy and Mykel J. Kochenderfer, 2024, "BetterBench: Assessing AI Benchmarks, Uncovering Issues, and Establishing Best Practices", <a href="https://arxiv.org/abs/2411.12990">https://arxiv.org/abs/2411.12990</a>.</li>
@@ -201,6 +233,11 @@
         </ul>
 
         <h4>Week 12 "Deploying AI"</h4>
+
+        <p>Learning outcomes:</p>
+        <ol>
+          <li>Know how to deploy an AI-based application.</li>
+        </ol>
 
         <ul>
           <li>Huyen, Chip, 2025, <i>AI Engineering: Building Applications with Foundation Models</i>, Chs 1-5.</li>
@@ -211,15 +248,6 @@
       <h3>Assessment</h3>
 
         <p>Using AI is encouraged in the course, but you still need to know the underlying material, in the same way that you still need to know how to add even though everyone has calculators. As such, assessment is divided into "secure" and "insecure" based on whether you will have access to AI to help you. The maximum that you can receive overall is the proportion that you get on secure assessment. For instance, if you got 100% on secure assessment, then your grade would be worked out based on the weights below. But if you only got 50% on secure assessment, then even if you got 100% on everything else your overall grade would be 50%.</p>
-
-        <h4>Donaldson paper</h4>
-
-          <ul>
-            <li>Due date: End of Week 3.</li>
-            <li>Type: Insecure</li>
-            <li>Weight: 10 per cent.</li>
-            <li>Task: Complete the Donaldson paper.</li>
-          </ul>
 
         <h4>In-class presentation</h4>
 
@@ -239,13 +267,13 @@
             <li>Task: Complete an online quiz.</li>
           </ul>
 
-        <h4>Mid-term</h4>
+        <h4>Mid-terms</h4>
 
           <ul>
             <li>Due dates: In-class Week 4 and Week 9.</li>
             <li>Type: Secure</li>
-            <li>Weight: 15 per cent each.</li>
-            <li>Task: Write a test in exam conditions. Questions are largely drawn from the weekly quiz.</li>
+            <li>Weight: 20 per cent each.</li>
+            <li>Task: Write a test in exam conditions. Questions are based on content from the part.</li>
           </ul>
 
         <h4>Final paper</h4>
@@ -254,16 +282,7 @@
             <li>Due date: Exam block.</li>
             <li>Type: Insecure</li>
             <li>Weight: 35 per cent.</li>
-            <li>Task: Write an original paper on a topic covered in the class, submit it to a journal, and get through desk-rejection. My expectation is that almost everyone will do the final exam rather than the final paper but the option to write a final paper only available. If you want to pick this option you should discuss what you'd like to explore with me early in the semester, and you should have written permission from me by Reading Week. If you initially decide to write a paper, but then do not have success with it, you're welcome to write the exam instead.</li>
-          </ul>
-
-        <h4>Final exam</h4>
-
-          <ul>
-            <li>Due date: Exam block.</li>
-            <li>Type: Secure</li>
-            <li>Weight: 35 per cent.</li>
-            <li>Task: Complete an exam in exam conditions. Questions are largely drawn from the weekly quiz, but there will be a few longer ones also.</li>
+            <li>Task: Write an original paper on a topic covered in the class, submit it to a journal, and get through desk-rejection. One idea would be to develop a benchmark in a particular area of interest and then evaluate an LLM's performance. You should discuss what you'd like to explore with me early in the semester, and you should have written permission from me by Reading Week.</li>
           </ul>
 
       </section>
