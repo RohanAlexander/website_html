@@ -62,14 +62,11 @@
 
       <h2>Topics in Statistical Data Science</h2>
 
-        <p>Last updated: 2025-09-02</p>
-
-        <p><i><b>THIS IS JUST RANDOM INITIAL THOUGHTS AND NOTHING IS FINALIZED YET.</b></i></p>
+        <p>Last updated: 2025-09-07</p>
 
         <h3>Overview</h3>
-          <p>This course covers current topics in data science from a statistical perspective. Emphasis is on practical aspects of data science, such as tools, workflows, reproducibility and communication.</p>
-          <p>Broadly, I assume that you have some statistical analysis skills from other classes. The main objective of this class is to provide you with a modern, end-to-end, reproducible data-science workflow, within which those analysis skills will sit.</p> 
-          <p>Part 1 ensures that everyone has a common foundation of technical skills. These include: version control, reproducible environments, efficient data formats, Python (especially cleaning data with polars, estimating models with scikit-learn, and package management with uv), Quarto, database connections, REST APIs, and GitHub Actions.</p>
+          <p>This course covers current topics in data science from a statistical perspective. I emphasise practical aspects of data science, such as tools, workflows, reproducibility and communication. I assume that you have some statistical analysis skills from other classes. The main objective of this class is to provide you with a modern, end-to-end, reproducible data-science workflow, within which those analysis skills will sit.</p> 
+          <p>Part 1 ensures that everyone has a common foundation of technical skills. These include: version control, reproducible environments, efficient data formats, Python (especially cleaning data with polars, estimating models with scikit-learn, and package management with uv), Quarto, database connections, using REST APIs, and implementing GitHub Actions.</p>
           <p>Part 2 focuses on statistical workflow. Topics include writing and editing papers; gathering/validating data; data management; and model interpretation.</p>
           <p>Part 3 integrates AI: using code assistants responsibly, running jobs on shared compute, making useful benchmarks, and deploying AI-based tasks.</p>
 
@@ -252,9 +249,24 @@
         <p>Class:</p>
 
         <ul>
-          <li>Lecture: </li>
-          <li>Demonstrate: </li>
-          <li>Worksheet: </li>
+          <li>Lecture:
+            <ul>
+              <li>Tea-tasting (15 min)</li>
+              <li>Properties of measurements (10 min)</li>
+              <li>Measurement error (10 min)</li>
+              <li>Missing data (10 min)</li>
+              <li>Data errors (15 min)</li>
+              <li>Sampling (30 min)</li>
+            </ul>
+          </li>
+          <li>Demonstrate:
+            <ul>
+              <li>Web scraping (30 min)</li>
+              <li>Using an API (30 min)</li>
+              <li>Writing data tests (30 min)</li>
+            </ul>
+          </li>
+          <li>Worksheet (30 min)</li>
         </ul>
 
         <h4>Week 7 "Data management and model interpretation"</h4>
@@ -263,8 +275,9 @@
 
         <p>Learning outcomes:</p>
         <ol>
-          <li>Know how to rigiously manage data including filenames, variable names, codebooks, folder organization and documentation.</li>
+          <li>Know how to rigorously manage data including filenames, variable names, codebooks, folder organization and documentation.</li>
           <li>Know how to communicate model estimates for common models including linear, logistic, Poisson.</li>
+          <li>Know how to build DAGs.</li>
         </ol>
 
         <p>Material:</p>
@@ -276,9 +289,27 @@
         <p>Class:</p>
 
         <ul>
-          <li>Lecture: </li>
-          <li>Demonstrate: </li>
-          <li>Worksheet: Provide output for five different models: linear, logistic, Poisson, X and Y, and then have the students write the results section.</li>
+          <li>Lecture:
+            <ul>
+              <li>Data organization (15 min)</li>
+              <li>Human subjects data (15 min)</li>
+              <li>Data management plan (15 min)</li>
+              <li>Documentation (15 min)</li>
+              <li>Style guide (15 min)</li>
+              <li>Data tracking (15 min)</li>
+              <li>Data collection (15 min)</li>
+            </ul>
+          </li>
+          <li>Demonstrate:
+            <ul>
+              <li>Creating marginal effects tables and graphs for linear, logistic, and Poisson models (30 min)</li>
+            </ul>
+          </li>
+          <li>Worksheet:
+            <ul>
+              <li>Provide output for three different models: linear, logistic, and Poisson, and then have the students write the results section. (30 min)</li>
+            </ul>
+          </li>
         </ul>
 
         <h4>Week 8 </h4>
@@ -300,15 +331,26 @@
 
         <p>Material:</p>
         <ul>
-          <li></li>
+          <li>Claude Code docs</li>
+          <li>Renni Browne and Dave King "Self-Editing for Fiction Writers"</li>
+          <li>Walter Murch "In the Blink of an Eye"</li>
+          <li>"What Editors Do: The Art, Craft, and Business of Book Editing"</li>
+          <li>Robert Martin "Clean Code"</li>
+          <li>Martin Fowler "Refactoring"</li>
+          <li>Andrew Hunt and David Thomas "The Pragmatic Programmer"</li>
         </ul>
 
         <p>Class:</p>
 
         <ul>
-          <li>Lecture: </li>
-          <li>Demonstrate: </li>
-          <li>Worksheet: </li>
+          <li>Lecture: Principles of editing (40 min)</li>
+          <li>Demonstrate:
+          <ul>
+              <li>Setting up Claude Code (10 min)</li>
+              <li>Using Claude Code (10 min)</li>
+            </ul>
+             </li>
+          <li>Worksheet: Provide five examples of code and have students edit it.</li>
         </ul>
 
         <h4>Week 10 "Developing benchmarks"</h4>
@@ -332,9 +374,18 @@
         <p>Class:</p>
 
         <ul>
-          <li>Lecture: </li>
-          <li>Demonstrate: </li>
-          <li>Worksheet: </li>
+          <li>Lecture:
+            <ul>
+              <li>Benchmarking (60 min)</li>
+              <li>Ethics and fairness (20 min)</li>
+            </ul>
+          </li>
+          <li>Demonstrate:
+            <ul>
+              <li>Build a benchmark, as a class (60 min)</li>
+            </ul>
+          </li>
+          <li>Worksheet (30 min)</li>
         </ul>
 
         <h4>Week 11 "Deploying AI"</h4>
@@ -354,9 +405,21 @@
         <p>Class:</p>
 
         <ul>
-          <li>Lecture: </li>
-          <li>Demonstrate: </li>
-          <li>Worksheet: </li>
+          <li>Lecture:
+            <ul>
+              <li>Building applications (20 min)</li>
+              <li>Foundation models (20 min)</li>
+              <li>Evaluation methodology (20 min)</li>
+              <li>Evaluating AI systems (20 min)</li>
+              <li>Prompt engineering (20 min)</li>
+            </ul>
+          </li>
+          <li>Demonstrate:
+            <ul>
+              <li>Creating a AI-based application (40 min)</li>
+            </ul>
+          </li>
+          <li>Worksheet (30 min)</li>
         </ul>
 
         <h4>Week 12 </h4>
@@ -374,7 +437,7 @@
           <ul>
             <li>Due dates: You will present about the topic of the week.</li>
             <li>Weight: 20 per cent.</li>
-            <li>Task: You should prepare slides and a worksheet using Quarto. Use the slides to deliver a 1 hour lecture about the topic of the week. There must be some aspect of live-coding in the lecture. After the lecture, you should have the class actively go through your worksheet for 30 min. Finally you should answer questions and lead discussion for 30 min. You should use GitHub PRs to put together the slides, working within the class repo. You will be graded on: your use of GitHub to work as a team to create content, your content and its delivery, and your ability to answer questions. Topics will be allocated in Week 1.</li>
+            <li>Task: Working with one other student you should prepare slides and demonstrations and a worksheet using Quarto. You should then deliver a lecture and demonstration and lead the worksheet. Make sure that you are well equiped to answer questions and lead discussion. You should use GitHub PRs to put together the slides, working within the class repo. The Friday before your class you should meet with me at 9am to review all your material. You will be graded on: your use of GitHub to create content, your content and its delivery, and your ability to answer questions. Topics will be allocated in Week 1.</li>
           </ul>
 
         <h4>Mid-terms</h4>
@@ -390,7 +453,7 @@
           <ul>
             <li>Due date: Exam block.</li>
             <li>Weight: 40 per cent.</li>
-            <li>Task: Write an original paper on a topic covered in the class, submit it to a journal, and get through desk-rejection. One idea would be to develop a benchmark in a particular area of interest and then evaluate an LLM's performance. You should discuss what you'd like to explore with me early in the semester, and you should have written permission from me by Reading Week.</li>
+            <li>Task: Write an original paper on a topic covered in the class, submit it to a journal, and get through desk-rejection. One idea would be to develop a benchmark in a particular area of interest and then evaluate an LLM's performance. You should submit a one page proposal to me before Reading Week.</li>
           </ul>
 
       </section>
