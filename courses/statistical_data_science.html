@@ -60,22 +60,28 @@
     </header>
     <section>
 
-      <h2>Topics in Statistical Data Science</h2>
+      <h2>STA4101: Topics in Statistical Data Science</h2>
 
         <p>Last updated: 2025-09-07</p>
 
         <h3>Overview</h3>
-          <p>This course covers current topics in data science from a statistical perspective. I emphasise practical aspects of data science, such as tools, workflows, reproducibility and communication. I assume that you have some statistical analysis skills from other classes. The main objective of this class is to provide you with a modern, end-to-end, reproducible data-science workflow, within which those analysis skills will sit.</p> 
+
+          <p>This course covers current topics in data science from a statistical perspective. I assume that you have some statistical analysis skills from other classes (for instance, that you've learned about linear regression). I emphasise practical aspects of data science, such as tools, workflows, reproducibility and communication. The main objective of this class is to provide you with a modern, end-to-end, reproducible data-science workflow, within which those analysis skills will sit.</p> 
+
           <p>Part 1 ensures that everyone has a common foundation of technical skills. These include: version control, reproducible environments, efficient data formats, Python (especially cleaning data with polars, estimating models with scikit-learn, and package management with uv), Quarto, database connections, using REST APIs, and implementing GitHub Actions.</p>
-          <p>Part 2 focuses on statistical workflow. Topics include writing and editing papers; gathering/validating data; data management; and model interpretation.</p>
-          <p>Part 3 integrates AI: using code assistants responsibly, running jobs on shared compute, making useful benchmarks, and deploying AI-based tasks.</p>
+
+          <p>Part 2 focuses on statistical workflow. Topics include writing and editing papers; gathering and validating data; data management; and model interpretation.</p>
+
+          <p>Part 3 integrates LLMs: using code assistants responsibly, running jobs on shared compute, making useful benchmarks, and deploying LLM-based tasks.</p>
+
+          <p>The course GitHub repo is: <a href="https://github.com/RohanAlexander/STA4101">https://github.com/RohanAlexander/STA4101</a>.</p>
 
         <h3>Learning objectives</h3>
           <p>The purpose of the course is to develop the skills needed to effectively do data science using modern tools, with a strong statistical focus. By the end of the course, you should be able to:</p>
           <ul>
             <li>set-up and use reproducible pipelines;</li>
             <li>manage real datasets;</li>
-            <li>communicate results effectively;</li>
+            <li>communicate effectively, both written and oral;</li>
             <li>create maintainable, production-ready analyses; and</li>
             <li>apply LLMs in data science appropriately.</li>
           </ul>
@@ -94,29 +100,37 @@
           <li>know how and why to pull, commit, add, and push using Git and GitHub;</li>
           <li>be comfortable making and receiving Pull Requests, and creating and closing Issues using GitHub to work as a team;</li>
           <li>know how to set up and use a Python workspace in VS Code with uv;</li>
-          <li>know how to import CSV/Parquet and inspect them; build and transform datasets with polars; and</li>
+          <li>know how to import CSV and Parquet files and inspect them; build and transform datasets with polars; and</li>
           <li>know how to make presentations with Quarto.</li>
         </ol>
 
         <p>Material:</p>
         <ul>
           <li>Deffner, Dominik, Natalia Fedorova, Jeffrey Andrews, and Richard McElreath., 2024, "Bridging theory and data: A computational workflow for cultural evolution" <i>PNAS</i>, <a href="https://doi.org/10.1073/pnas.2322887121">10.1073/pnas.2322887121</a>.</li>
-          <li>Timbers, Tiffany A., Joel Ostblom, Florencia D'Andrea, Rodolfo Lourenzutti, and Daniel Chen, 2025, <a href="https://ubc-dsci.github.io/reproducible-and-trustworthy-workflows-for-data-science/"><i>Reproducible and Trustworthy Workflows for Data Science</i></a> (Chapters on Version Control, and Project Environments).</li>
-          <li><a href="https://docs.astral.sh/uv/">uv: An extremely fast Python package and project manager</a>.</li>
-          <li><a href="https://arrow.apache.org/docs/python/parquet.html">Reading and Writing the Apache Parquet Format</a>.</li>
+          <li>Timbers, Tiffany A., Joel Ostblom, Florencia D'Andrea, Rodolfo Lourenzutti, and Daniel Chen, 2025, <a href="https://ubc-dsci.github.io/reproducible-and-trustworthy-workflows-for-data-science/"><i>Reproducible and Trustworthy Workflows for Data Science</i></a> (the chapters on Version Control and Project Environments).</li>
+          <li><a href="https://docs.astral.sh/uv/">uv docs</a> (especially the installation, first staeps, installing Python, running scripts, working on projects sections).</li>
+          <li><a href="https://arrow.apache.org/docs/python/parquet.html">Parquet docs</a>.</li>
         </ul>
 
         <p>Class:</p>
         <ul>
-          <li>Lecture: Workflow (20 min)</li>
-          <li>Lecture: Version control (20 min)</li>
-          <li>Demonstrate: Pull, commit, add, and push using Git and GitHub (20 min)</li>
-          <li>Demonstrate: Making and receiving PRs and Issues, and resolving Git conflicts (20 min)</li>
-          <li>Demonstrate: Downloading uv, then installing Python and core packages and creating project-specific environments, and linting (20 min)</li>
-          <li>Demonstrate: Saving and reading Parquet and CSVs (10 min)</li>
-          <li>Demonstrate: Cleaning and summarizing some data with polars (20 min)</li>
-          <li>Demonstrate: Installing Quarto and creating slides (20 min)</li>
-          <li>Worksheet (20 min)</li>
+          <li>Lecture: 
+            <ul>
+              <li>Workflow (20 min)</li>
+              <li>Version control (20 min)</li>
+            </ul>
+          </li>
+          <li>Demonstrate:
+          <ul>
+              <li>Pull, commit, add, and push using Git and GitHub (10 min)</li>
+              <li>Making and receiving PRs and Issues, and resolving Git conflicts (10 min)</li>
+              <li>Downloading uv, then installing Python and core packages and creating project-specific environments, and linting (20 min)</li>
+              <li>Saving and reading Parquet and CSVs (10 min)</li>
+              <li>Cleaning and summarizing some data with polars (20 min)</li>
+              <li>Installing Quarto and creating slides (10 min)</li>
+            </ul>
+             </li>
+          <li>Worksheet (40 min).</li>
         </ul>
 
         <h4>Week 2 "Using Python for data science"</h4>
@@ -141,13 +155,21 @@
         <p>Class:</p>
 
         <ul>
-          <li>Lecture: Effective graphs (20 min)</li>
-          <li>Demonstration: Generating synthetic datasets by sampling from normal, uniform, and Poisson distributions (20 min)</li>
-          <li>Demonstrate: Making effective graphs and tables (20 min)</li>
-          <li>Demonstrate: Fitting ridge, lasso, logistic, Poisson, and random forests with scikit-learn (30 min)</li>
-          <li>Demonstrate: Implementing bootstrap and cross-validation (20 min)</li>
-          <li>Demonstrate: Presenting results in Quarto with cross-references (15 min)</li>
-          <li>Worksheet (40 min)</li>
+          <li>Lecture: 
+            <ul>
+              <li>Effective graphs (20 min)</li>
+            </ul>
+          </li>
+          <li>Demonstrate:
+          <ul>
+              <li>Generating synthetic datasets by sampling from normal, uniform, and Poisson distributions (20 min)</li>
+              <li>Making effective graphs and tables (20 min)</li>
+              <li>Fitting ridge, lasso, logistic, Poisson, and random forests with scikit-learn (30 min)</li>
+              <li>Implementing bootstrap and cross-validation (20 min)</li>
+              <li>Presenting results in Quarto with cross-references (15 min)</li>
+            </ul>
+             </li>
+          <li>Worksheet (40 min).</li>
         </ul>
 
         <h4>Week 3 "DevOps for data science"</h4>
@@ -171,16 +193,29 @@
         <p>Class:</p>
 
         <ul>
-          <li>Lecture: Why reproducible, portable environments matter (15 min)</li>
-          <li>Demonstrate: Creating and using a Docker instance (15 min)</li>
-          <li>Lecture: Secure data access (15 min)</li>
-          <li>Demonstrate: Connecting to an API using environment variables for credentials (15 min)</li>
-          <li>Lecture: Efficient data engineering (15 min)</li>
-          <li>Lecture: Observability and quality checks (15 min)</li>
-          <li>Demonstrate: Adding assertions to test joins, transformations, and model outputs (15 min)</li>
-          <li>Demonstrate: Writing a GitHub Actions workflow (20 min)</li>
-          <li>Worksheet: Build a reproducible workflow that loads data securely, applies transformations with checks, and runs automatically with GitHub Actions (30 min)</li>
+          <li>Lecture: 
+            <ul>
+              <li>Why reproducible, portable environments matter (15 min)</li>
+              <li>Secure data access (15 min)</li>
+              <li>Observability and quality checks (15 min)</li>
+            </ul>
+          </li>
+          <li>Demonstrate:
+          <ul>
+              <li>Creating and using a Docker instance (15 min)</li>
+              <li>Connecting to an API using environment variables for credentials (15 min)</li>
+              <li>Efficient data engineering (15 min)</li>
+              <li>Adding assertions to test joins, transformations, and model outputs (15 min)</li>
+              <li>Writing a GitHub Actions workflow (20 min)</li>
+            </ul>
+             </li>
+          <li>Worksheet: 
+           <ul>
+             <li>Build a reproducible workflow that loads data securely, applies transformations with checks, and runs automatically with GitHub Actions (40 min)</li>
+           </ul>
+         </li>
         </ul>
+
 
         <h4>Week 4</h4>
 
@@ -216,11 +251,23 @@
         <p>Class:</p>
 
         <ul>
-          <li>Lecture: Features of good writing in the following categories: Title, Abstract, Introduction, Data, Model, Results, Discussion (40 min)</li>
-          <li>Demonstrate: Provide examples of writing in the categories and show how to improve them (30 min)</li>
-          <li>Worksheet: Provide three examples of analysis and have students draft the papers (30 min)</li>
-          <li>Worksheet: Provide three examples of drafts and have students edit them (30 min)</li>
-          <li>Worksheet: Make a plan, based on G. King (2006), for how you will write a meaningful paper by the end of this class. Detail three journals/conferences, in order, that you will submit it to, and why the paper would be a good fit at each (10 min)</li>
+          <li>Lecture: 
+            <ul>
+              <li>Features of good writing in the following categories: Title, Abstract, Introduction, Data, Model, Results, Discussion (40 min)</li>
+            </ul>
+          </li>
+          <li>Demonstrate:
+          <ul>
+              <li>Provide examples of writing in the categories and show how to improve them (30 min)</li>
+            </ul>
+             </li>
+          <li>Worksheet: 
+           <ul>
+             <li>Provide three examples of analysis and have students draft the papers (30 min)</li>
+             <li>Provide three examples of drafts and have students edit them (30 min)</li>
+             <li>Make a plan, based on G. King (2006), for how you will write a meaningful paper by the end of this class. Detail three journals/conferences, in order, that you will submit it to, and why the paper would be a good fit at each (10 min)</li>
+           </ul>
+         </li>
         </ul>
 
         <h4>Week 6 "Data gathering and validation"</h4>
@@ -284,6 +331,7 @@
         <ul>
           <li>Lewis, Crystal, 2024, <i>Data Management in Large-Scale Education Research</i>, <a href="https://datamgmtinedresearch.com">https://datamgmtinedresearch.com</a></li>
           <li>Arel-Bundock, Vincent, 2025, <i>Model to Meaning: How to Interpret Statistical Models with marginaleffects for R and Python</i>, <a href="https://marginaleffects.com">https://marginaleffects.com</a>.</li>
+          <li>Rohrer, Julia M. and Vincent Arel-Bundock, 2025, "Models as Prediction Machines: How to Convert Confusing Coefficients into Clear Quantities", https://osf.io/preprints/psyarxiv/g4s2a_v1</li>
         </ul>
 
         <p>Class:</p>
@@ -320,8 +368,8 @@
           <li>Mid-term II</li>
         </ul>
 
-        <h4><i>Part 3: Integrating AI</i></h4>
-        <h4>Week 9 "Using Python for data science, with AI"</h4>
+        <h4><i>Part 3: Integrating LLMs</i></h4>
+        <h4>Week 9 "Using Python for data science, with LLMs"</h4>
 
         <p>Learning outcomes:</p>
         <ol>
@@ -338,6 +386,7 @@
           <li>Robert Martin "Clean Code"</li>
           <li>Martin Fowler "Refactoring"</li>
           <li>Andrew Hunt and David Thomas "The Pragmatic Programmer"</li>
+          <li>Braganza, Adrienne, "Looks Good to Me": Constructive Code Reviews"</li>
         </ul>
 
         <p>Class:</p>
@@ -388,13 +437,13 @@
           <li>Worksheet (30 min)</li>
         </ul>
 
-        <h4>Week 11 "Deploying AI"</h4>
+        <h4>Week 11 "Deploying LLMs"</h4>
 
         <p>24 November 2025</p>
 
         <p>Learning outcomes:</p>
         <ol>
-          <li>Know how to deploy an AI-based application.</li>
+          <li>Know how to deploy an LLM-based application.</li>
         </ol>
 
         <p>Material:</p>
@@ -416,7 +465,7 @@
           </li>
           <li>Demonstrate:
             <ul>
-              <li>Creating a AI-based application (40 min)</li>
+              <li>Creating a LLM-based application (40 min)</li>
             </ul>
           </li>
           <li>Worksheet (30 min)</li>
