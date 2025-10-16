@@ -10,21 +10,41 @@ body {
 }
 
 .container {
-  max-width: 210mm;
+  max-width: 100ch;
   margin: 0 auto;
-  padding: 0 10px; 
+  padding: 0 1rem; 
 }
 
 header, nav, section {
   margin-bottom: 20px;
 }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  background: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: underline;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  left: 10px;
+  top: 10px;
+}
+
 a {
   color: #000;
+  text-decoration: underline;
 }
 
 a:hover {
   color: #555;
+}
+
+a:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
 }
 
 nav a {
@@ -48,6 +68,7 @@ nav a {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
   margin: 0 auto;
-  width: 60%;
 }

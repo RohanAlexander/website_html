@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="container">
       <header>
         <h1>Toronto Data Workshop</h1>
         <nav>
           <a href="index.html">Home</a>
-          <a href="pdfs/cv-academic-Rohan_Alexander.pdf" target="_blank">CV</a>
+          <a href="pdfs/cv-academic-Rohan_Alexander.pdf" target="_blank" rel="noopener noreferrer">CV</a>
           <a href="bookshelf.html">Bookshelf</a>
-          <a href="tdw.html">Workshop</a>
+          <a href="tdw.html" aria-current="page">Workshop</a>
           <a href="misc.html">Misc</a>
           <a href="blog.html">Blog</a>
         </nav>
       </header>
+      <main id="main">
       <section>
         <p>
           <img 
@@ -28,6 +30,7 @@
             width="150" 
             height="150" 
             alt="The Toronto Data Workshop sticker."
+            loading="lazy"
             decoding="async">
           Toronto Data Workshop brings together academia and industry to share data science and AI best practice. We are broadly interested, but especially in the code- and data-centric aspects of a project that are often glossed over. We meet weekly for an hour and most talks are recorded. If you would like to attend, please sign up <a href="https://rohanalexander.substack.com">here</a>. Everyone is welcome---it is free and you do not need to be affiliated with the university.
         </p>
@@ -39,31 +42,34 @@
         <h2>2025</h2>
 
         <ul>
-          <li>Wednesday 12 November 2025, noon (EST)</li>
-          <ul>
-            <li><b>Georgia Channing</b>, Hugging Face</li>
-            <li>"AI for Scientific Discovery is a Social Problem"</li>
-            <li>
-              Georgia Channing is the ML for Science Lead at Hugging Face and a DPhil candidate at the University of Oxford. Her academic background is in machine learning, and her research has spanned neural architecture search, protein classification, deepfake audio detection, and hyperspectral imaging. She holds an undergraduate degree from the University of Tennessee and a Masters degree from the University of Oxford. She works now on building tools and methods to advance scientific achievement.
-            </li>
-          </ul>
+          <li>Wednesday 12 November 2025, noon (EST)
+            <ul>
+              <li><b>Georgia Channing</b>, Hugging Face</li>
+              <li>"AI for Scientific Discovery is a Social Problem"</li>
+              <li>
+                Georgia Channing is the ML for Science Lead at Hugging Face and a DPhil candidate at the University of Oxford. Her academic background is in machine learning, and her research has spanned neural architecture search, protein classification, deepfake audio detection, and hyperspectral imaging. She holds an undergraduate degree from the University of Tennessee and a Masters degree from the University of Oxford. She works now on building tools and methods to advance scientific achievement.
+              </li>
+            </ul>
+          </li>
 
-          <li>Wednesday 19 November 2025, noon (EST)</li>
-          <ul>
-            <li><b>Mellissa Meisels</b>, Yale</li>
-            <li>"Strategic Campaign Attention to Abortion Before and After Dobbs"</li>
-            <li>
-              <a href="https://www.mellissameisels.com">Mellissa Meisels</a> is an Assistant Professor in the Department of Political Science at Yale University, where she is also affiliated with the Institution for Social and Policy Studies and Center for the Study of American Politics. Her research centers on the U.S. Congress, money in politics, electoral campaigns, and political organizations. Much of this work investigates the strategic choices of candidates and financial contributors in congressional campaigns, with an emphasis on primary elections. To do so, she employs original data, natural language processing, causal inference tools, experiments, and structural estimation of formal models. Her research is forthcoming and published in <i>Proceedings of the National Academy of Sciences</i>, <i>Journal of Politics</i>, <i>British Journal of Political Science</i>, and <i>Political Science Research and Methods</i>.
-            </li>
-          </ul>
-          <li>Wednesday 26 November 2025, noon (EST)</li>
-          <ul>
-            <li><b>Christopher Barrie</b>, NYU</li>
-            <li>"Reasoning models and synthetic data generation"</li>
-            <li>
-              <a href="https://www.cjbarrie.com">Christopher Barrie</a> is a Assistant Professor of Sociology, at NYU as well as Core Faculty at CSMaP and a Research Fellow at the Department of Sociology at the University of Oxford. His research interests include computational methods, generative AI, political attitudes, communication, protest, conflict and MENA. He holds a DPhil in Sociology from Oxford.
-            </li>
-          </ul>
+          <li>Wednesday 19 November 2025, noon (EST)
+            <ul>
+              <li><b>Mellissa Meisels</b>, Yale</li>
+              <li>"Strategic Campaign Attention to Abortion Before and After Dobbs"</li>
+              <li>
+                <a href="https://www.mellissameisels.com">Mellissa Meisels</a> is an Assistant Professor in the Department of Political Science at Yale University, where she is also affiliated with the Institution for Social and Policy Studies and Center for the Study of American Politics. Her research centers on the U.S. Congress, money in politics, electoral campaigns, and political organizations. Much of this work investigates the strategic choices of candidates and financial contributors in congressional campaigns, with an emphasis on primary elections. To do so, she employs original data, natural language processing, causal inference tools, experiments, and structural estimation of formal models. Her research is forthcoming and published in <i>Proceedings of the National Academy of Sciences</i>, <i>Journal of Politics</i>, <i>British Journal of Political Science</i>, and <i>Political Science Research and Methods</i>.
+              </li>
+            </ul>
+          </li>
+          <li>Wednesday 26 November 2025, noon (EST)
+            <ul>
+              <li><b>Christopher Barrie</b>, NYU</li>
+              <li>"Reasoning models and synthetic data generation"</li>
+              <li>
+                <a href="https://www.cjbarrie.com">Christopher Barrie</a> is a Assistant Professor of Sociology, at NYU as well as Core Faculty at CSMaP and a Research Fellow at the Department of Sociology at the University of Oxford. His research interests include computational methods, generative AI, political attitudes, communication, protest, conflict and MENA. He holds a DPhil in Sociology from Oxford.
+              </li>
+            </ul>
+          </li>
         </ul>
 
         <h2>2024</h2>
@@ -1494,6 +1500,7 @@
           </ul>
         </ul>
       </section>
+      </main>
     </div>
   </body>
 </html>
